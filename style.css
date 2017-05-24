@@ -2,6 +2,13 @@ body {
   background-size: cover;
 }
 
+@media (max-height: 600px) {
+  body {
+    background: no-repeat;
+    background-size: 220%;
+  }
+}
+
 #weather-box {
   background-color: rgba(255,255,255,.8);
   margin-top: 12%;
