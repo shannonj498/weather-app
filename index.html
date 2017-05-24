@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>Local Weather Dashboard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+
+      <div id="weather-box">
+
+        <div class="row">
+         	<div id="buttons" class="col-sm-11 col-md-11 col-lg-11 col-xl-11">
+         		<button class="btn btn-sm btn-info" id="far">&#176F</button>
+         		<button class="btn btn-sm btn-info" id="cel">&#176C</button>
+          	</div><!--buttons-->
+        </div><!--row-->
+
+        <div id="city-state"></div>
+        <div id="time"> </div>
+        <div id="bottom-line"></div>
+        <div id="current-temp"></div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div id="temp-high" class="col-sm-6 col-md-6 col-lg-6 col-xl-6"></div>
+            <div id="temp-low" class="col-sm-6 col-md-6 col-lg-6 col-xl-6"></div>
+          </div><!--row-->
+        </div><!--container-->
+
+        <div id="description"></div>
+
+      </div> <!-- weather-box -->
+      </div> <!-- container -->
+      
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    </body>
+</html>

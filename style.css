@@ -1,0 +1,70 @@
+body {
+  background-size: cover;
+}
+
+#weather-box {
+  background-color: rgba(255,255,255,.8);
+  margin-top: 12%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px black;
+  margin-bottom: 10%;
+}
+
+#city-state {
+  text-align: center;
+  font-size: 3em;
+  line-height: .2em;
+  color: #1E698E;
+  padding-right: 55%;
+}
+
+#time {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 4em;
+  color: #7D8183;
+  padding-right: 55%;
+}
+
+#buttons {
+  text-align: right;
+}
+
+#bottom-line {
+  border-bottom: solid rgba(0,0,0, .3) 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+#current-temp {
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 1.8em;
+}
+
+#temp-high {
+  text-align: right;
+  font-size: 1.2em;
+  line-height: .2em;
+  color: #7D8183;
+}
+
+#temp-low{
+  text-align: left;
+  font-size: 1.2em;
+  line-height: .2em;
+  color: #7D8183;
+}
+
+#description {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  color: #1A586F;
+}
